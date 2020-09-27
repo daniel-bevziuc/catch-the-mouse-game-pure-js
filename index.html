@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catch the mouse</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="main">
+        <header class="head">
+            <div class="data-block">
+                <div class="circle">
+                    <div class="star"></div>
+                </div>
+                <div class="score"></div>
+                <div class="life">
+                    <div class="life__heart"></div>
+                    <div class="life__heart"></div>
+                    <div class="life__heart"></div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="btn__start">
+                    <div class="btn__start-text">Start</div>
+                </button> 
+                <button class="btn__info">?</button>
+            </div>
+        </header>
+        <div class="game-field">
+            <div class="game-field__wrap">
+                <div class="game-field__mink"></div>
+                <div class="game-field__mink game-field__mink-spec"></div>
+                <div class="game-field__mink"></div>
+                <div class="game-field__mink"></div>
+                <div class="game-field__mink"></div>
+            </div>
+        </div>
+        <div class="game-over">
+            <div class="game-over__title">Finish</div>
+            <div class="game-over__main">
+                <div class="main__title">Congratulations! You Win:</div>
+                <div class="main__score"></div>
+                <div class="main__score-text">Points!</div>
+            </div>
+            <div class="game-over__btn">OK</div>
+        </div>
+        <div class="game-rules">
+            <div class="game-rules__title">GAME RULES</div>
+            <div class="game-rules__main">
+                <section class="list-rules">
+                    <p class="list-rules__item">1. In one of the 5 minks, a mouse periodically appears in random order 🐭and other emoji 🐭🐼🐻🦊🐱🐱 ....</p>
+                    <p class="list-rules__item">2. You need to catch the mouse. When the player clicks on the mouse, +10 points are added.</p>
+                    <p class="list-rules__item">3. After every fifth captured mouse, the speed of its random appearance increases.</p>
+                    <p class="list-rules__item">4. If the click was made on another emoji, then the player's life is taken away. Only 3 lives. If the lives are over, then the game stops.</p>
+                </section>
+            </div>
+            <div class="game-rules__btn">OK</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

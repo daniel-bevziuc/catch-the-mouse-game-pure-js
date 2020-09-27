@@ -1,0 +1,39 @@
+@media screen and (max-width: 1110px) {
+    .gameOver {
+        margin-top: 15%;
+    }
+    .gameRules {
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .gameOver {
+        margin-top: 20%;
+    }
+    .gameRules {
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 850px) {
+   
+}
+@media screen and (max-width: 902px) {
+  
+}
+
+@media screen and (max-width:650px) {
+    .gameOver {
+        margin-top: 30%;
+    }
+    .gameRules {
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width:400px) {
+    .gameOver {
+        margin-top: 45%;
+    }
+    .gameRules {
+        margin-top: 45%;
+    }
+}
